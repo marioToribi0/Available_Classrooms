@@ -41,7 +41,7 @@ class User(UserMixin, db.Model):
     premium = db.Column(db.Boolean(), default=True)
     date = db.Column(db.String(100), default=datetime.now().strftime("%d %B %Y"))
 
-db.create_all()    
+# db.create_all()    
 
 # Login manager
 login_manager = LoginManager()
