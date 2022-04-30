@@ -1,0 +1,232 @@
+html, body{
+    height:100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-weight: 700;
+    color: black;
+}
+.row{
+    padding-right: 0;
+    margin-right: 0;
+}
+.logo img{
+    position: relative;
+    bottom: 1px;
+    margin-right: 6px;
+}
+.logo span{
+    font-weight: 700;
+    font-size: 80%;
+    text-transform: uppercase;
+}
+.info{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    height: 100%;
+}
+.navbar{
+    position: relative;
+    z-index: 1;
+    padding: 0 1%;
+    padding-top: 1.5%;
+    padding-bottom: 0.4%;
+}
+
+.nav-link{
+    color: black !important;
+    font-size: 90%;
+    font-weight: 500;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(249, 62, 56);
+    color:rgb(249, 62, 56) !important;
+}
+.buttom-red{
+    position: relative;
+    transition: 1s;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    background-color: white;
+    color: rgb(249, 62, 56) !important;
+    font-weight: 600;
+}
+.buttom-red:hover{
+    background-color: rgb(206, 50, 45);
+    color: white !important;
+    font-weight: 600;
+    
+}
+main, main section{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    height: 100%;
+}
+.home{
+    background-image: url(../img/Fondo-principal.jpg)
+}
+.about{
+    background-color: rgb(249, 62, 56);
+}
+.about h1, .about span, .about h2{
+    position: relative;
+    z-index: 1;
+}
+.navbar-about{
+    background-color: rgb(249, 62, 56) !important;
+}
+.nav-link-about{
+    color: white !important;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: 500;
+}
+.nav-link-about:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    color:black !important;
+}
+.square-about{
+    position:absolute;
+    float: left;
+    left: calc(30%);
+    top: 0;
+    z-index: 0;
+    display:flex;
+    flex-direction:column;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+}
+.about-text{
+    position: absolute;
+    top: 25px;
+    right: 50px;
+}
+
+.bold-text{
+    margin-bottom: 5%;
+    text-align: left;
+    font-weight: 900;
+}
+p{
+    font-weight: 300;
+}
+h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.white{
+    color: white;
+    text-align: left;
+}
+.body{
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    font-weight: 600;
+}
+@media (max-width: 1112px) {
+    .square-about{
+        display: none;
+    }
+    .about-text{
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 50px;
+    }
+    .buttom-red{
+        background: white !important;
+    }
+    a.buttom-red{
+        color: rgb(249, 62, 56) !important;
+        margin-bottom: 5px;
+    }
+    .img-project{
+        display: none;
+    }
+ }
+
+ .img-project{
+     position: relative;
+     z-index: 2;
+     left: 5%;
+     width: 115%;
+ }
+
+ .name{
+     color: white;
+     background-color: rgb(249, 62, 56);
+     padding: 40px;
+     width: 200%;
+     position: relative;
+     top: 25%;
+     right: 55%;
+     z-index: 0;
+ }
+ 
+.name span{
+    position: relative;
+    bottom: 10px;
+}
+.projects-text{
+    position: relative;
+    top: 10%;
+    width: 90%;
+}
+h2 a{
+}
+h2 a:hover{
+    transform: scale(1.1);
+}
+.user{
+    color: white !important;    
+    font-weight: 900;
+    position: relative;
+    top: 5px;
+}
+
+#name-user{
+    color: white !important;
+}
+
+@media (max-width: 992px) {
+    .name{
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+    }
+    *{
+        color: white;
+    }
+    h1{
+        color: white !important;
+    }
+    .row{
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,81 @@
+html, body{
+    height:100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-weight: 700;
+    color: rgb(249, 62, 56);
+}
+.row{
+    padding-right: 0;
+    margin-right: 0;
+}
+.logo img{
+    position: relative;
+    bottom: 1px;
+    margin-right: 6px;
+}
+.logo span{
+    font-weight: 700;
+    font-size: 80%;
+    text-transform: uppercase;
+}
+.navbar{
+    padding: 0 1%;
+    padding-top: 1.25%;
+    padding-bottom: 0.4%;
+}
+.square{
+    position: absolute;
+    padding: 1% 0;
+    width: 100%;
+    bottom: 5%;
+    background-color: white;
+}
+
+.nav-link{
+    color: black !important;
+    font-size: 90%;
+    width: max-content;
+    font-weight: 500;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(249, 62, 56);
+    color:rgb(249, 62, 56) !important;
+}
+.buttom-red{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    background-color: rgb(249, 62, 56);
+    color: white !important;
+    font-weight: 600;
+}
+.buttom-red:hover{
+    background-color: rgb(249, 62, 56);
+    color: white !important;
+    font-weight: 600;
+}
+main, main section{
+    text-align: center;
+    height: 100%;
+}
+.home{
+    background-image: url(../img/Fondo-principal.jpg);
+    height: 90vh;
+}
+
+.user{
+    color: black !important;
+    font-weight: 900;
+}

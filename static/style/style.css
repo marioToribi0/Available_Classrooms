@@ -1,0 +1,215 @@
+html, body{
+    height:100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-weight: 700;
+    color: rgb(249, 62, 56);
+}
+.row{
+    padding-right: 0;
+    margin-right: 0;
+}
+.logo img{
+    position: relative;
+    bottom: 1px;
+    margin-right: 6px;
+}
+.logo span{
+    font-weight: 700;
+    font-size: 80%;
+    text-transform: uppercase;
+}
+.info{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    height: 100%;
+}
+.navbar{
+    padding: 0 1%;
+    padding-top: 1.5%;
+    padding-bottom: 0.4%;
+}
+.square{
+    position: absolute;
+    padding: 1% 0;
+    width: 100%;
+    bottom: 5%;
+    background-color: white;
+}
+
+.nav-link{
+    color: black !important;
+    font-size: 90%;
+    font-weight: 500;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(249, 62, 56);
+    color:rgb(249, 62, 56) !important;
+}
+.buttom-red{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    background-color: rgb(249, 62, 56);
+    color: white !important;
+    font-weight: 600;
+}
+.buttom-red:hover{
+    background-color: rgb(249, 62, 56);
+    color: white !important;
+    font-weight: 600;
+}
+main, main section{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    height: 100%;
+}
+.home{
+    background-image: url(../img/Fondo-principal.jpg)
+}
+.about{
+    background-color: rgb(249, 62, 56);
+}
+.navbar-about{
+    background-color: rgb(249, 62, 56) !important;
+}
+.nav-link-about{
+    color: white !important;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: 500;
+}
+.nav-link-about:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    color:black !important;
+}
+.square-about{
+    position:absolute;
+    float: left;
+    left: calc(70%);
+    top: 0;
+    z-index: 0;
+    display:flex;
+    flex-direction:column;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+}
+.about-text{
+    position: absolute;
+    top: 25px;
+    right: 50px;
+}
+
+.bold-text{
+    color: white;
+    margin-bottom: 5%;
+    text-align: left;
+    font-weight: 900;
+}
+p{
+    font-weight: 300;
+}
+h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.white{
+    color: white;
+    text-align: left;
+}
+.body{
+    margin-top: 20px;
+    margin-left: 10%;
+}
+.buttom-email{
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    border-radius: 10px;
+}
+.buttom-email span{
+    text-align: center;
+}
+.btn-email{
+    text-align: center;
+    color: white;
+    background-color: rgb(249, 62, 56);
+    align-items: center;
+    border-radius: 10px !important;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+}
+.without-border{
+    border: none;
+}
+.without-background{
+    background-color: white;
+}
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    font-weight: 600;
+}
+@media (max-width: 992px) {
+    .footer{
+        position: absolute;
+        left: 10%;
+    }
+}
+@media (max-width: 1112px) {
+    .square-about{
+        display: none;
+    }
+    .about-text{
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 50px;
+    }
+    .buttom-red{
+        background: white !important;
+    }
+    a.buttom-red{
+        color: rgb(249, 62, 56) !important;
+        margin-bottom: 5px;
+    }
+    .img-project{
+        display: none;
+    }
+ }
+
+.img-project{
+    position: absolute;
+    width: 50%;
+    top: 20%;
+    transition: 1s;
+}
+.user{
+    color: black !important;
+    font-weight: 900;
+    position: relative;
+    top: 5px;
+}

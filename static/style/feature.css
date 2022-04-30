@@ -1,0 +1,83 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+}
+h2{
+    font-weight: 900;
+}
+.row{
+    padding-right: 0;
+    margin-right: 0;
+}
+.navbar{
+    padding: 0 1%;
+    padding-top: 1.25%;
+    padding-bottom: 0.4%;
+}
+
+.nav-link{
+    color: black !important;
+    font-size: 90%;
+    width: max-content;
+    font-weight: 500;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(249, 62, 56);
+    color:rgb(249, 62, 56) !important;
+}
+.buttom-red{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    background-color: rgb(249, 62, 56);
+    color: white !important;
+    font-weight: 600;
+}
+.buttom-red:hover{
+    background-color: rgb(249, 62, 56);
+    color: white !important;
+    font-weight: 600;
+}
+.logo span{
+    font-weight: 700;
+    font-size: 80%;
+    text-transform: uppercase;
+}
+#map{
+    position: relative;
+    max-width: 100%;
+}
+.text-title{
+    text-align: center;
+}
+.submit{
+    background-color: rgb(249, 62, 56);
+    text-align: end;
+    right: 0;
+}
+
+.user{
+    color: black !important;
+    font-weight: 900;
+    position: relative;
+    z-index: 10;
+}
+
+@media (max-width: 992px) {
+    #map{
+        display: none;
+    }
+}
+
+.text-danger{
+    text-align: center;
+    font-weight: 900;
+}
