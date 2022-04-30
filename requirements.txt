@@ -8,3 +8,4 @@ WTForms==3.0.1
 redis==4.2.2
 gunicorn==20.1.0
 email_validator
+celery
