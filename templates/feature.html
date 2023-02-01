@@ -112,7 +112,7 @@
           </table>
         </section>
         <script>
-          const key = "andkj*FEA$,";
+          const key = "1234";
 
           const queryParams = function(params){
               let result = "?";
@@ -177,7 +177,7 @@
               var comprobate_before= document.querySelector("#comprobate_before").value  
 
               console.log("Loading...")
-              httpRequest.open("GET", "https://classroom-intec.herokuapp.com/available"+queryParams([["key", key], ["day", day], ["hour", hour], ["area", area], ["comprobate", comprobate], ["until", until], ["comprobate_before", comprobate_before]]));
+              httpRequest.open("GET", "https://web-production-6b99b.up.railway.app/"+queryParams([["key", key], ["day", day], ["hour", hour], ["area", area], ["comprobate", comprobate], ["until", until], ["comprobate_before", comprobate_before]]));
               httpRequest.send(null);
           }
 
